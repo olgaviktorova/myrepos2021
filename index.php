@@ -1,6 +1,2 @@
 <?php
-echo '<pre>';
-print_r($_SERVER);
-echo '</pre>';
-phpinfo();
-?>
+echo '<h1>HELLO</h1>';
