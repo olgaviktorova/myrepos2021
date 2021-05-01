@@ -269,7 +269,7 @@ function start($chat_id)
 		deleteMessage($chat_id, $message_id_del);
 	} else {
 		$markup = start_keyboard();
-		$message_id = sendMessage($chat_id, 'Hello, I\'am Salma see my photos and videos❤️', $markup);
+		$message_id = sendMessage($chat_id, 'Hello, I\'am Lisa see my photos and videos❤️', $markup);
 		mypdo("INSERT INTO users (chat_id, message_id, premium) VALUES ('$chat_id', '$message_id', ',')");
 	}
 }
