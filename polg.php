@@ -316,7 +316,7 @@ function donate($chat_id){
 	You can use localcryptos.com or localbitcoins.net to buy BTC by PayPal, Visa\MasterCard, WeChat, etc.
 	For	example watch how to use localcryptos.com in this video https://www.youtube.com/watch?v=LaNKSnOA5oA
 	After payment write in entry field and send me a message with information about transaction.";
-	$image = 'AgACAgEAAxkBAAIBUmCHI8ahXxrN7PUJ6zK0KlXz7F38AALpqTEborM5RP7d_aNpgTqdCxgdTRcAAwEAAwIAA20AAzs2AAIfBA';
+	$image = 'AgACAgEAAxkBAANuYI52n7V5uNqz5F06qp7IDh-Eqs8AAhepMRsj33FEIsdfbHQWAqkAAQsaTRcAAwEAAwIAA20AAy5GAAIfBA';
 	//$message_id = sendMessage($chat_id, $message, $markup);
 	$message_id = sendPhoto($chat_id, $image, $message, $markup);
 	mypdo("UPDATE users SET message_id='$message_id' WHERE id='$id'");
@@ -344,7 +344,7 @@ function buy($chat_id, $number){
 	You can use localcryptos.com or localbitcoins.net to buy BTC by PayPal, Visa\MasterCard, WeChat, etc.
 	For	example watch how to use localcryptos.com in this video https://www.youtube.com/watch?v=LaNKSnOA5oA
 	After payment write in entry field and send me a message with information about transaction.";
-	$image = 'AgACAgEAAxkBAAIBUWCHI4z0-mjovm4zPgtGcp88BP4aAALoqTEborM5RC3E4k4qI08tOZEbTRcAAwEAAwIAA20AAwQ4AAIfBA';
+	$image = 'AgACAgEAAxkBAANtYI52OXUpCk5hjZsTkL6TnvGWTb4AAhapMRsj33FEgmXzsDZO9eQND81KFwADAQADAgADbQADLXICAAEfBA';
 	//$message_id = sendMessage($chat_id, $message, $markup);
 	$message_id = sendPhoto($chat_id, $image, $message, $markup);
 	mypdo("UPDATE users SET message_id='$message_id' WHERE id='$id'");
