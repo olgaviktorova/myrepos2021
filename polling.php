@@ -511,6 +511,10 @@ if (isset($_GET['v'])) {
 			echo '</pre>';
 			phpinfo();
 			break;
+			case 'achat':
+			foreach ($achat as $adm)
+				echo $adm.' ';
+			break;
 		case 'start':
 			for ($i = 0; $i < 3; $i++) {
 				$results = getUpdates();
